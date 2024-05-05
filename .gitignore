@@ -32,4 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 
-/src/main/resources/docs/spring-boot-reference.pdf
+/src/main/resources/docs/*.pdf
