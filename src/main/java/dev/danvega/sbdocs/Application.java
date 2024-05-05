@@ -14,15 +14,14 @@ import org.springframework.shell.command.annotation.CommandScan;
 @SpringBootApplication
 public class Application {
 
-	private static final Logger log = LoggerFactory.getLogger(Application.class);
-
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
 
 	@Bean
 	CommandLineRunner commandLineRunner() {
-		return args -> System.out.println("hello ");
+		return args -> {
+		};
 	}
 
 }
